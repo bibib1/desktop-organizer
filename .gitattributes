@@ -1,0 +1,10 @@
+# 仓库内统一用 LF 存放，检出时按平台还原
+* text=auto eol=lf
+
+# Windows 批处理必须保持 CRLF，否则部分环境执行异常
+*.bat text eol=crlf
+
+# 二进制资源不做换行符转换
+*.ico binary
+*.jpg binary
+*.png binary

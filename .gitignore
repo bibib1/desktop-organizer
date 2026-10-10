@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物
+build/
+dist/
+*.manifest
+
+# 本机配置：里面保存着使用者桌面图标的名称与坐标，属于个人数据，不入库
+config.json
